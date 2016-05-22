@@ -81,6 +81,7 @@ background-position: center bottom;
 }
 .cases .devices > li {
 	width: 33.3333333%;
+	list-style-type: none;
 	float: left;
 }
 
@@ -95,3 +96,5 @@ background-position: center bottom;
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
 }
+.caption	{font-weight: 400;
+	font-size: 1.563rem;}
