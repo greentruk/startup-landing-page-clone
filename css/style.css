@@ -15,9 +15,9 @@ html {
     height: 70px;
     margin: 0 auto;
     padding: 0px 15px;
-    
+
 }
-.top-navigation .links {
+.top-navigation .links a {
     float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
@@ -25,11 +25,11 @@ html {
     margin-top: 25px;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
-    
 
-
+   
 }
 .top-navigation .links li {
+	float: right;
     display: inline-block;
     margin-left: 25px;
     
