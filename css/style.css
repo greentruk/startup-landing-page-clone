@@ -10,6 +10,17 @@ html {
     background-color: #fff;
     
 }
+.logo {
+	width: 26px;
+	height: 70px;
+	background-image: url('karma-logo.svg');
+	background-repeat: no-repeat;
+	vertical-align: baseline;
+	float: left;}	
+.top-navigation .logo {
+    height: 4.375rem;
+    float: left;}
+
 .top-navigation > .content {
     width: 970px;
     height: 70px;
@@ -18,7 +29,7 @@ html {
 
 }
 .top-navigation .links a {
-    float: right;
+    
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
@@ -29,7 +40,7 @@ html {
    
 }
 .top-navigation .links li {
-	float: right;
+	float: left;
     display: inline-block;
     margin-left: 25px;
     
